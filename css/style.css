@@ -240,7 +240,7 @@ section {
 }
 
 .header .navbar {
-    background: url('../images/header-bg.png');
+    background: url('/header-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -324,7 +324,8 @@ section {
 /* 02 Banner Section */
 
 .banner_section {
-    background: url('../images/tree\ haven.png');
+    background: url('/tree\ haven.png');
+    filter: drop-shadow(20px 20px 20px 0px orang);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -582,7 +583,7 @@ section {
 
 }
 
-.testimonial_section .card {
+/* .testimonial_section .card {
     background: url('../images/testimonial/testimonial-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -590,8 +591,8 @@ section {
     text-align: right;
     padding: 5rem 5rem 5rem 0;
     border-radius: 0 .5rem .5rem 0;
-    border: 0.1rem solid transparent;
-}
+    border: 0.1rem solid transparent; */
+
 
 .testimonial_section .profile-box {
     padding: 1.875rem;
@@ -621,7 +622,7 @@ section {
 /* Footer CSS */
 
 .footer_wrapper {
-    background: url('../images/footer-bg/footer_bg.png');
+    background: url('/footer-bg/footer_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
